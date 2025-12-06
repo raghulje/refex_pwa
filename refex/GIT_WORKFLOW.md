@@ -16,8 +16,11 @@
 
 ### Simple Push (Recommended)
 ```bash
-# Just push - it will go to your repository automatically
-git push
+# Use the alias (easiest)
+git pushpwa
+
+# Or explicit push
+git push pwa HEAD:main
 ```
 
 ### Explicit Push
